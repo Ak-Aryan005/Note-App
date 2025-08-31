@@ -58,7 +58,6 @@ useEffect(()=>{
   localStorage.setItem("note",JSON.stringify(notes))
 },[notes])
 
-
   return (
     <NoteProvider value={{add,deleteNote,val,setval,dis,setdis,ak,update,search,setsearch,thememode,mode}}>
      
